@@ -93,76 +93,105 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>login</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css"></script>
-</head>
-<style type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
 
-	#login{
 
-    border-radius: 25px;
-    border: 1px solid black;
-    padding: 20px; 
-    width: 460px;
-    height: 300px; 
-    text-align: center;
-    margin: 0px auto; 
-    margin-top: 200px;
-    background-color:#bba27a82;
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
 
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 4px 0 1px 0;
+}
+
+img.avatar {
+  width: 8%;
+  border-radius: 12%;
+  padding-bottom: 20px;
+}
+
+.container {
+  margin-left: 30%;
+  margin-right: 30%;
+
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
   }
-  h4{
-  	text-align: center;
-  	color:#ffffff;
+ 
+  
+  .cancelbtn {
+     width: 100%;
   }
-  #btn{
-  	height: 30px;
-  	width: 175px;
-  	margin-left: 70px;
-  }
-  .error{
-	  color:#d83a52;
-  }
-  #login table td{
-	  padding: 5px;
-  }
-  #new
-  {
-  	font-size: 20px;
-  }
+}
 </style>
+</head>
 <body>
-<div id="login">
-	<h4>Log In<br></h4><br>
+
+
+
 	<form method="POST">
-  		<table>
-  			<tr>
-  				<td>Username: </td>
-				<td><input type="text" name="username" value="<?php if(isset($username)) echo $username;?>"></td>
-  				<td class="error"><?php if(isset($errors['username'])) echo $errors['username'];?></td>
-			</tr>
-			<tr>
-  				<td>Password: </td>
-				<td><input type="password" name="pass"></td>
-				<td class="error"><?php if(isset($errors['pass'])) echo $errors['pass']; if(isset($errors['wrong_pass'])) echo $errors['wrong_pass'];?></td>
-			</tr>
-			<tr>
-  				<td colspan="2"><input type="submit" id="btn" class="btn btn btn-danger btn-md"
-  				 name="login" value="Log in"></td>
-			</tr>
-		</table>
+	
+	<div class="imgcontainer">
+    <img src="images/BAUETLOGO.png" alt="Avatar" class="avatar">
+  	</div>
+
+	  <div class="container">
+	  			<label for="username"><b>Username</b></label>
+				<input type="text" name="username" value="<?php if(isset($username)) echo $username;?>">
+  				<?php if(isset($errors['username'])) echo $errors['username'];?>
+
+  				<label for="pass"><b>Password</b></label>
+				<input type="password" name="pass">
+				<?php if(isset($errors['pass'])) echo $errors['pass']; if(isset($errors['wrong_pass'])) echo $errors['wrong_pass'];?>
+
+	      
+    			<button type="submit" id="btn" class="btn btn btn-danger btn-md" name="login">Login</button>
+		</div>
+
+	
 	</form>
 	<br>
 	<br>
-	<p id="new">Not a Registred Faculty ? <a href="registration.php">Sign Up</a> here. </p>
-</div>
+
+
+
+
 </body>
 </html>
