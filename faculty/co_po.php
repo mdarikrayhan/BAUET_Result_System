@@ -41,7 +41,7 @@ if(isset($_GET["alert"])){
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">East West University</a>
+					<a class="navbar-brand" href="#">BAUET</a>
 				</div>
 
 				<!-- Collect the nav links, forms, and other content for toggling -->

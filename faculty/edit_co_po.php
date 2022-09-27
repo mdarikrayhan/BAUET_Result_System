@@ -86,7 +86,7 @@ table th{
 			<nav class="navbar navbar-default" id="nb">
         <div class="container-fluid" id="nb2">
 			    <div class="navbar-header" id="nb3">
-		        <a class="navbar-brand" href="#">East West University</a>
+		        <a class="navbar-brand" href="#">BAUET</a>
 			    </div>
 			    <ul class="nav navbar-nav">
 						<li><a href="faculty_home.php">Home</a></li>
