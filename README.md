@@ -1,4 +1,4 @@
-# BAUET_Result_System
+# BAUET Result System
 OBE based result system for BAUET
 
 Students Id 20104001,20104007,20104009,20104027,20104031,20104033
