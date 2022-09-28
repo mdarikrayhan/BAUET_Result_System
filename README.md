@@ -11,7 +11,7 @@ Md Tanvir Ahmed Tagim
 
 Amrin Nahar
 
-Gourab Roy
+Gourob Roy
 
 Mst Bilkis Khatun
 
