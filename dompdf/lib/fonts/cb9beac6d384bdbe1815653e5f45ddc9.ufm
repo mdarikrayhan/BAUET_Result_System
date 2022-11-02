@@ -1,0 +1,42 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+FontName icomoon
+FontSubfamily Regular
+UniqueID FontForge 2.0 : icomoon : 10-7-2014
+FullName icomoon
+Version Version 1.0
+PostScriptName icomoon
+Weight Medium
+ItalicAngle 0
+IsFixedPitch true
+UnderlineThickness 0
+UnderlinePosition 0
+FontHeightOffset 90
+Ascender 1000
+Descender 0
+FontBBox 0 0 1000 1000
+StartCharMetrics 23
+U 57344 ; WX 1000 ; N uniE000 ; G 3
+U 57345 ; WX 1000 ; N uniE001 ; G 21
+U 57347 ; WX 1000 ; N uniE003 ; G 22
+U 57349 ; WX 1000 ; N uniE005 ; G 4
+U 57350 ; WX 1000 ; N uniE006 ; G 5
+U 57351 ; WX 1000 ; N uniE007 ; G 6
+U 57352 ; WX 1000 ; N uniE008 ; G 7
+U 57353 ; WX 1000 ; N uniE009 ; G 8
+U 57354 ; WX 1000 ; N uniE00A ; G 9
+U 57355 ; WX 1000 ; N uniE00B ; G 10
+U 57356 ; WX 1000 ; N uniE00C ; G 11
+U 57357 ; WX 1000 ; N uniE00D ; G 12
+U 57358 ; WX 1000 ; N uniE00E ; G 13
+U 57359 ; WX 1000 ; N uniE00F ; G 14
+U 57360 ; WX 1000 ; N uniE010 ; G 15
+U 57361 ; WX 1000 ; N uniE011 ; G 16
+U 57362 ; WX 1000 ; N uniE012 ; G 17
+U 57363 ; WX 1000 ; N uniE013 ; G 18
+U 57364 ; WX 1000 ; N uniE014 ; G 19
+U 57365 ; WX 1000 ; N uniE015 ; G 20
+EndCharMetrics
+EndFontMetrics
