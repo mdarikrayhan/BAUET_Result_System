@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 02, 2022 at 04:16 AM
+-- Generation Time: May 21, 2023 at 07:52 PM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 5.6.40
 
@@ -48,7 +48,7 @@ CREATE TABLE `tbladmin` (
 --
 
 INSERT INTO `tbladmin` (`Id`, `firstName`, `lastName`, `otherName`, `emailAddress`, `phoneNo`, `password`, `staffId`, `adminTypeId`, `isAssigned`, `isPasswordChanged`, `dateCreated`) VALUES
-(1, 'Mst. Irin', 'Sultana', 'Admin', 'irinsultanacse@gmail.com', '01779289335', 'f2d0ff370380124029c2b807a924156c', 'admin', 1, 1, 0, '');
+(1, 'Mst. Irin', 'Sultana', 'admin', 'irinsultanacse@gmail.com', '01779289335', 'admin', 'admin', 1, 1, 0, '');
 
 -- --------------------------------------------------------
 

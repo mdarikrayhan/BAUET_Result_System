@@ -9,7 +9,7 @@
         $staffId=$_POST['staffId'];
         // $password=md5($_POST['password']);
         $password=$_POST['password'];
-        $password = md5($password);
+        $password = $password;
         $query = mysqli_query($con,"select * from tbladmin where  staffId='$staffId' && password='$password'");
         $count = mysqli_num_rows($query);
         $row = mysqli_fetch_array($query);
