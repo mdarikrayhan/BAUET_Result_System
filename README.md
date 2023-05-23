@@ -47,4 +47,51 @@ This is a simple result management system for BAUET. It is developed using Djang
 
 ## Screenshots
 
-### Admin Panel
+### Admin Panel - Login
+
+<img src="https://github.com/mdarikrayhan/BAUET_Result_System/blob/main/Project%20Report%20Files/ScreenShot/Admin_Login.png ">
+<br>
+
+### Admin Panel - Dashboard
+
+<img src="https://github.com/mdarikrayhan/BAUET_Result_System/blob/main/Project%20Report%20Files/ScreenShot/Admin_Dashboard.png">
+<br>
+
+### Admin Panel - Add Department
+
+<img src="https://github.com/mdarikrayhan/BAUET_Result_System/blob/main/Project%20Report%20Files/ScreenShot/Add_Department.png">
+<br>
+
+### Admin Panel - Add Course
+
+<img src="https://github.com/mdarikrayhan/BAUET_Result_System/blob/main/Project%20Report%20Files/ScreenShot/Add_Course.png">
+<br>
+
+### Admin Panel - Add Faculty
+
+<img src="https://github.com/mdarikrayhan/BAUET_Result_System/blob/main/Project%20Report%20Files/ScreenShot/Add_Faculty.png">
+<br>
+
+### Admin Panel - Semester Result
+
+<img src="https://github.com/mdarikrayhan/BAUET_Result_System/blob/main/Project%20Report%20Files/ScreenShot/Semester_Result.png">
+
+### Admin Panel - Final Result
+
+<img src="https://github.com/mdarikrayhan/BAUET_Result_System/blob/main/Project%20Report%20Files/ScreenShot/Final_Result.png">
+<br>
+
+### Student Panel - Login
+
+<img src="https://github.com/mdarikrayhan/BAUET_Result_System/blob/main/Project%20Report%20Files/ScreenShot/Student_Login.png"> 
+<br>
+
+### Student Panel - Dashboard
+
+<img src="https://github.com/mdarikrayhan/BAUET_Result_System/blob/main/Project%20Report%20Files/ScreenShot/Student_Dashboard.png">
+<br>
+
+### Student Panel - Enroll Course
+
+<img src="https://github.com/mdarikrayhan/BAUET_Result_System/blob/main/Project%20Report%20Files/ScreenShot/Enrolled_Coures.png">
+<br>
