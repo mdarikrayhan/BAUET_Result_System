@@ -32,3 +32,19 @@ This is a simple result management system for BAUET. It is developed using Djang
 - Copy the project folder and paste it into `C:\xampp\htdocs`
 - Open browser and go to `http://localhost/BAUET_Result_System/index.php` for admin panel
 - For student panel go to `http://localhost/BAUET_Result_System/result.php`
+
+## Login Credentials
+
+### Admin
+
+- Username: admin
+- Password: admin
+
+### Student
+
+- Username: 20104033
+- Password: 20104033
+
+## Screenshots
+
+### Admin Panel
