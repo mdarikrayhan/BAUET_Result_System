@@ -8,7 +8,17 @@ This is a simple result management system for BAUET. It is developed using Djang
 
 - Student can see their result
 - Teacher can add result
-- Admin can add student, teacher, course, result etc.
+- Admin can add 
+    - Student
+    - Teacher
+    - Course
+    - Result
+    - Department
+    - Batch
+    - Semester
+    - Subject
+    - Grade
+    - User
 
 ## Installation
 
