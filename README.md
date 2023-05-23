@@ -20,6 +20,14 @@ This is a simple result management system for BAUET. It is developed using Djang
     - Grade
     - User
 
+## Project Report
+
+- <a href="https://github.com/mdarikrayhan/BAUET_Result_System/blob/main/Project%20Report%20Files/Project%20Idea.docx">Project Idea</a>
+- <a href="https://github.com/mdarikrayhan/BAUET_Result_System/blob/main/Project%20Report%20Files/Project%20Proposal.docx">Project Proposal</a>
+- <a href="https://github.com/mdarikrayhan/BAUET_Result_System/blob/main/Project%20Report%20Files/Analysis_Report.docx">Analysis Report</a>
+- <a href="https://github.com/mdarikrayhan/BAUET_Result_System/blob/main/Project%20Report%20Files/Project%20Book.docx">Project Book</a>
+- <a href="https://github.com/mdarikrayhan/BAUET_Result_System/blob/main/Project%20Report%20Files/Presentation.pptx">Presentation</a>
+- <a href="https://github.com/mdarikrayhan/BAUET_Result_System/blob/main/Project%20Report%20Files/Script.docx">Script</a>
 ## Installation
 
 - Clone the repository
