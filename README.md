@@ -1,19 +1,16 @@
 # BAUET Result System
-OBE based result system for BAUET
 
-Students Id 20104001,20104007,20104009,20104027,20104031,20104033
+## Introduction
 
-# Name of the Teammates
+This is a simple result management system for BAUET. It is developed using Django framework.
 
-Fahmida Rahman Moumi
+## Features
 
-Md Tanvir Ahmed Tagim
+- Student can see their result
+- Teacher can add result
+- Admin can add student, teacher, course, result etc.
 
-Amrin Nahar
+## Installation
 
-Gourob Roy
-
-Mst Bilkis Khatun
-
-Md Arik Rayhan
-
+- Clone the repository
+- You need the following XAMPP to run the project : <a href="https://github.com/mdarikrayhan/BAUET_Result_System/blob/main/Requried%20Softwares/xampp-windows-x64-5.6.40-1-VC11-installer.exe">xampp-windows-x64-5.6.40-1-VC11-installer.exe</a>
